@@ -1,0 +1,15 @@
+name: bayesian-sir
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - scipy
+  - matplotlib
+  - tqdm
+  - pip
+  # - pip:
+  #   - jaxlib # ==0.1.75+cuda11.cudnn82
+  #   - "jax[cuda11_cudnn82] -f https://storage.googleapis.com/jax-releases/jax_releases.html"
+  #   - blackjax
